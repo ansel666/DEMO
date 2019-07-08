@@ -1,0 +1,28 @@
+<template>
+    <van-tabbar v-model="active">
+        <van-tabbar-item icon="home-o">
+            <router-link to="/">
+                首页
+            </router-link>
+        </van-tabbar-item>
+        <van-tabbar-item icon="search">
+             <router-link to="/list">
+                表格
+            </router-link>
+        </van-tabbar-item>
+        <van-tabbar-item icon="friends-o">标签</van-tabbar-item>
+        <van-tabbar-item icon="setting-o">标签</van-tabbar-item>
+    </van-tabbar>
+
+</template>
+<script>
+export default {
+  data() {
+    return {
+      active: 0
+    }
+  }
+
+}
+</script>
+
