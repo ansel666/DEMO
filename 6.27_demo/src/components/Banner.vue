@@ -31,12 +31,12 @@ export default {
 <style scoped>
 .swiper-slide {
   width: 100%;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .swiper-slide img {
-  width: 90%;
-  height:365px;
+  width: 100%;
+  height: auto;
 }
 </style>

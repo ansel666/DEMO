@@ -4,7 +4,7 @@
         <i class="iconfont icon-meiriyicai"></i>
         <span>首页</span>
         </router-link>
-        <router-link to="/list">
+        <router-link to="/list1">
         <i class="iconfont icon-liebiao"></i>
         <span>列表</span>
         </router-link>
@@ -29,6 +29,7 @@
         width: 100%;
         height: 58px;
         border-top: 1px solid #e3e3e3;
+        z-index:100%;
     }
     #nav a{
         display:flex;

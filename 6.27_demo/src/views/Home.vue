@@ -79,7 +79,7 @@ export default {
     align-items: center;
   }
   .homelist li img{
-    width:35%;
+    width:45%;
     border-radius: 5px;
   }
 </style>
